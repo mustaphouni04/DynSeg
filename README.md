@@ -10,6 +10,8 @@ Segmentation models rely on fixed parameters but must adapt dynamically to novel
 
 The core of DynSeg is a hypernetwork that takes a text embedding as input and outputs the weights for the convolutional layers of a segmentation network (specifically, a U-Net). This dynamic weight generation allows the segmentation model to adapt on-the-fly to the specific object described in the text.
 
+![Architecture](training_visualizations/architecture.png)
+
 ## Getting Started
 
 ### Prerequisites
