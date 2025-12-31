@@ -1,0 +1,13 @@
+[training]
+learning_rate=2e-5
+scheduler="Lambda"
+
+[unet]
+out_channels=1
+num_decoder_layers=4
+bilinear=true
+
+[utils]
+target_size=[224,224]
+dataset_name="Miguel231/refcocog_polygons"
+
