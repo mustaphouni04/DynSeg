@@ -2,6 +2,8 @@
 
 This repository contains the source code for the DynSeg project.
 
+![Sample image][training_visualizations/example.jpg "Sample prediction in the validation set"]
+
 ## Description
 
 Segmentation models rely on fixed parameters but must adapt dynamically to novel concepts defined by free-form text descriptions. Our approach, DynSeg, tackles this challenge by generating task-specific weights directly from language using a hypernetwork. This allows for zero-shot referring image segmentation, where the model can segment objects based on textual descriptions it has never seen during training.
