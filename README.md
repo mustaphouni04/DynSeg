@@ -2,7 +2,7 @@
 
 This repository contains the source code for the DynSeg project.
 
-![Sample image][training_visualizations/example.jpg "Sample prediction in the validation set"]
+![Sample image](training_visualizations/example.jpg)
 
 ## Description
 
